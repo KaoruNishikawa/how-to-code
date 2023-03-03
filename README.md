@@ -1,2 +1,3 @@
 # how-to-code
-Personal programming manual
+
+Personal programming notes
