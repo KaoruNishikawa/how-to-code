@@ -1,0 +1,25 @@
+{
+    "name": "Jekyll",
+    "build": {
+        "dockerfile": "Dockerfile"
+    },
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "bierner.markdown-mermaid",
+                "bierner.markdown-preview-github-styles",
+                "DavidAnson.vscode-markdownlint",
+                "streetsidesoftware.code-spell-checker",
+                "tamasfe.even-better-toml"
+            ],
+            "settings": {
+                "editor.rulers": [
+                    88
+                ],
+                "editor.renderWhitespace": "all",
+                "editor.wordWrap": "on",
+                "files.insertFinalNewline": true
+            }
+        }
+    }
+}
