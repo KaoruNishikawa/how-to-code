@@ -4,6 +4,11 @@
     "version": "2.0.0",
     "tasks": [
         {
+            "label": "Resolve dependencies",
+            "type": "shell",
+            "command": "bundle lock --add-platform x86_64-linux"
+        },
+        {
             "label": "Install dependencies",
             "type": "shell",
             "command": "bundle install && if [ -z $( bundle show | grep webrick ) ]; then bundle add webrick; fi",
@@ -14,6 +19,7 @@
             "command": "bundle exec jekyll serve",
             "dependsOrder": "sequence",
             "dependsOn": [
+                "Resolve dependencies",
                 "Install dependencies"
             ],
         },
