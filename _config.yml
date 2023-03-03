@@ -1,0 +1,21 @@
+title: "How to code"
+email: "linersky246@gmail.com"
+description: "Personal programming notes"
+domain: "kaorunishikawa.github.io"
+url: "https://kaorunishikawa.github.io"
+baseurl: "/how-to-code/"
+github_username: "KaoruNishikawa"
+
+lsi: true
+safe: true
+source: "public"
+incremental: false
+highlighter: "rouge"
+gist:
+  noscript: false
+kramdown:
+  math_engine: "mathjax"
+  syntax_highlighter: "rouge"
+theme: "minima"
+plugins:
+  - "jekyll-feed"
